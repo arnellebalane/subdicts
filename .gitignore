@@ -1,6 +1,10 @@
+*.pyc
+*.pyc
 .installed.cfg
 bin/
 eggs/
 develop-eggs/
 parts/
-*.pyc
+dist/
+downloads/
+src/*.egg-info

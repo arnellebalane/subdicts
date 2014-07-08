@@ -9,5 +9,6 @@ setup(
     author = 'Arnelle Balane',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
-    install_requires = ['setuptools']
+    install_requires = ['setuptools'],
+    test_suite = 'tests'
 )

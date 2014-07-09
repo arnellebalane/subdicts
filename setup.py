@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 
 def read(filename):
-    return open(os.path.join(os.path.dirname(__FILE__), filename)).read()
+    return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
 setup(
     name = 'subdicts',

@@ -2,16 +2,13 @@ import os
 from setuptools import setup, find_packages
 
 
-def read(filename):
-    return open(os.path.join(os.path.dirname(__file__), filename)).read()
-
 setup(
     name = 'subdicts',
     version = '1.0.0',
     url = 'https://github.com/arnellebalane/subdicts',
     license = 'MIT',
-    description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries',
-    long_description = read('README.md'),
+    description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries.',
+    long_description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries.',
     author = 'Arnelle Balane',
     author_email = 'arnellebalane@gmail.com',
     packages = find_packages('src'),

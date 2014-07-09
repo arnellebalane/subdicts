@@ -3,6 +3,15 @@ subdicts
 
 A small python utility which parses nested-keys in dictionaries into sub-dictionaries.
 
+####Installation
+
+This package can be installed from PyPI using `pip`. Make sure you have `pip` installed 
+then run:
+
+```
+$ pip install subdicts
+```
+
 ####Usage
 
 This package has one method, `subdicts.utils.parse`, which does the parsing.

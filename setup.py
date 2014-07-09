@@ -10,5 +10,5 @@ setup(
     packages = find_packages('src'),
     package_dir = {'': 'src'},
     install_requires = ['setuptools'],
-    test_suite = 'tests'
+    test_suite = 'subdicts'
 )

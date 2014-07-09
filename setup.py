@@ -19,10 +19,11 @@ setup(
     install_requires = ['setuptools'],
     test_suite = 'subdicts',
     classifiers = [
-        'Development Status :: 1 - Released',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'License :: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python'
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7'
     ]
 )

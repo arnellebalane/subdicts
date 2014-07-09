@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'subdicts',
-    version = '0.1',
+    version = '0.1.0',
     url = 'http://github.com/arnellebalane/subdicts',
     license = 'MIT',
     description = 'parses nested dictionay keys into sub-dictionaries',

@@ -83,7 +83,7 @@ setup(
     url = 'https://github.com/arnellebalane/subdicts',
     license = 'MIT',
     description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries.',
-    long_description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries.',
+    long_description = long_description,
     author = 'Arnelle Balane',
     author_email = 'arnellebalane@gmail.com',
     packages = find_packages('src'),

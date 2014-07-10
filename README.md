@@ -12,6 +12,19 @@ then run:
 $ pip install subdicts
 ```
 
+#####Installation Using Buildout
+
+If you're using __Buildout__ and want to use __subdicts__ you can do so by adding the 
+following lines to your `buildout.cfg` file:
+
+```
+[subdicts]
+recipe = zc.recipe.egg:eggs
+eggs = subdicts == <subdicts_version_number>
+```
+
+and appending `subdicts` to your `buildout:parts`.
+
 ####Usage
 
 This package has one method, `subdicts.utils.parse`, which does the parsing.

@@ -79,7 +79,7 @@ issue here.
 
 setup(
     name = 'subdicts',
-    version = '1.0.1',
+    version = '1.0.2',
     url = 'https://github.com/arnellebalane/subdicts',
     license = 'MIT',
     description = 'A small python utility which parses nested-keys in dictionaries into sub-dictionaries.',

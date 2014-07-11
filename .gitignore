@@ -7,5 +7,6 @@ eggs/
 develop-eggs/
 parts/
 dist/
+build/
 downloads/
 src/*.egg-info

@@ -23,6 +23,8 @@ recipe = zc.recipe.egg
 eggs = subdicts
 ```
 
+and appending `subdicts` to your `buildout:parts`.
+
 ####Usage
 
 This package has one method, `subdicts.utils.parse`, which does the parsing.

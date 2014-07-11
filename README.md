@@ -19,11 +19,9 @@ following lines to your `buildout.cfg` file:
 
 ```
 [subdicts]
-recipe = zc.recipe.egg:eggs
-eggs = subdicts == <subdicts_version_number>
+recipe = zc.recipe.egg
+eggs = subdicts
 ```
-
-and appending `subdicts` to your `buildout:parts`.
 
 ####Usage
 

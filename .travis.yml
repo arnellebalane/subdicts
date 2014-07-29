@@ -1,7 +1,7 @@
 languange: python
 python: "2.7"
 install: 
-    - pip install virtualenv
+    - sudo pip install virtualenv
     - virtualenv subdicts-env
     - subdicts-env/bin/python bootstrap.py
     - bin/buildout

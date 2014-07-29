@@ -1,6 +1,7 @@
 languange: python
 python: "2.7"
 install: 
-    - python bootstrap.py
+    - virualenv subdicts-env
+    - subdicts-env/bin/python bootstrap.py
     - bin/buildout
 script: bin/test

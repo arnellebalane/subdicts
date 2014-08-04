@@ -1,12 +1,13 @@
 subdicts
 ========
 
-A small python utility which parses nested-keys in dictionaries into sub-dictionaries.
+A small python utility which parses nested-keys in dictionaries into 
+sub-dictionaries.
 
 ####Installation
 
-This package can be installed from PyPI using `pip`. Make sure you have `pip` installed 
-then run:
+This package can be installed from PyPI using `pip`. Make sure you have `pip` 
+installed then run:
 
 ```
 $ pip install subdicts
@@ -14,7 +15,7 @@ $ pip install subdicts
 
 #####Installation Using Buildout
 
-If you're using __Buildout__ and want to use __subdicts__ you can do so by adding the 
+If you're using Buildout and want to use subdicts you can do so by adding the 
 following lines to your `buildout.cfg` file:
 
 ```
@@ -40,8 +41,8 @@ parsed = parse(dict)
 
 ####Contributing
 
-To contribute to this mini-project just fork this repository, clone your forked repository 
-and run buildout inside the project directory.
+To contribute to this mini-project just fork this repository, clone your forked 
+repository and run buildout inside the project directory.
 
 ```
 $ git clone git@github.com:arnellebalane/subdicts.git
@@ -51,8 +52,9 @@ $ ./bin/buildout
 
 This will take care of retrieving the project's dependencies.
 
-When contributing new code to the project, please test your code. The test files are 
-located inside the `src/subdicts/tests` directory. To run the tests simply do:
+When contributing new code to the project, please test your code. The test files 
+are located inside the `src/subdicts/tests` directory. To run the tests simply 
+do:
 
 ```
 $ ./bin/test
@@ -67,5 +69,5 @@ issue here.
 
 ####Todo
 
-- properly parse compicated dictionary keys, especially those containing inner `[` and 
-  `]` characters (e.g. `person[name[]]`)
+- properly parse compicated dictionary keys, especially those containing inner 
+  `[` and `]` characters (e.g. `person[name[]]`)
